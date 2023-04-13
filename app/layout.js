@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 					<div className='flex w-full'>
 						<Sidebar className='min-h-screen' />
 						<div className='flex flex-col w-full'>
-							<Header className='w-full' />
+							<Header className='w-full' pageName={'Dashboard'}/>
 							{children}
 						</div>
 					</div>

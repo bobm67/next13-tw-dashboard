@@ -1,7 +1,7 @@
-const Header = () => {
+const Header = ({pageName}) => {
 	return (
-		<div className='flex justify-between px-4 pt-4 w-full'>
-			<h2>Dashboard</h2>
+		<div className='flex justify-between w-full px-4 pt-4'>
+			<h2>{pageName}</h2>
 			<h2>Welcome Back, Bob</h2>
 		</div>
 	)
